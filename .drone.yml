@@ -18,7 +18,6 @@ steps:
   settings:
     dockerfile: docker/Dockerfile.linux.amd64
     repo: bieldatalab/drone-git
-    registry: bieldatalab
     auto_tag: "true"
     auto_tag_suffix: linux-amd64
     username:
