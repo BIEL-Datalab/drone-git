@@ -19,7 +19,6 @@ steps:
     dockerfile: docker/Dockerfile.linux.amd64
     repo: bieldatalab/drone-git
     auto_tag: "true"
-    auto_tag_suffix: linux-amd64
     username:
       from_secret: docker_username
     password:
